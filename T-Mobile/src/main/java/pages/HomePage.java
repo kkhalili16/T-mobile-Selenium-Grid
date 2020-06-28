@@ -57,7 +57,7 @@ public class HomePage extends TestBase {
         String D = Coverage.getText();
         String E = Benefits_more.getText();
         String[] actualNav = {A,B,C,D,E};
-        String[] nav = {"Plans", "Phones & devices", "Deals", "Coverage", "Benefits & more"};
+        String[] nav = {"Planss", "Phones & devices", "Deals", "Coverage", "Benefits & more"};
         for(int i=0; i<5; i++) {
             Assert.assertEquals(actualNav[i], nav[i]);
         }

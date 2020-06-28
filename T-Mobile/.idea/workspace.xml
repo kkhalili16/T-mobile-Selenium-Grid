@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47f16c99-9406-4453-ab6b-4e0acb9688c2" name="Default Changelist" comment="" />
+    <list default="true" id="47f16c99-9406-4453-ab6b-4e0acb9688c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,12 +14,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/T_Mobile$_Users_ahmadkhalili_Desktop_T_Mobile_testing_xml.ic" NAME="$PROJECT_DIR$/testing.xml Coverage Results" MODIFIED="1593358794566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/T_Mobile$_Users_ahmadkhalili_Desktop_T_Mobile_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1593359728455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
+            <state relative-caret-position="480">
               <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -27,13 +35,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="280">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/surefire-reports/failed.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -45,14 +58,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="98" column="34" selection-start-line="23" selection-end-line="110" />
+            <state relative-caret-position="1620">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -66,6 +88,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -73,9 +98,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Util/TestUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/config.properties" />
+        <option value="$PROJECT_DIR$/testing.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
       </list>
     </option>
   </component>
@@ -107,17 +133,19 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="55" />
-    <option name="y" value="90" />
-    <option name="width" value="1093" />
-    <option name="height" value="681" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="734" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,104 +153,15 @@
               <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
               <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T-Mobile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T-Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593348436118" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593359867015" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -273,9 +212,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/ahmadkhalili/Desktop/T-Mobile/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="T-Mobile" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/ahmadkhalili/Desktop/T-Mobile/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="T-Mobile" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG./Users/ahmadkhalili/Desktop/T-Mobile/testng.xml" />
+        <item itemvalue="TestNG./Users/ahmadkhalili/Desktop/T-Mobile/testing.xml" />
         <item itemvalue="TestNG.HomePageTest.navigation_bar" />
       </list>
     </recent_temporary>
@@ -294,41 +255,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePageTest - 2020.06.28 at 00h 48m 09s.xml">
+    <history-entry file="HomePageTest - 2020.06.28 at 09h 34m 21s.xml">
       <configuration name="HomePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2020.06.28 at 00h 48m 39s.xml">
+    <history-entry file="_Users_ahmadkhalili_Desktop_T-Mobile_testing_xml - 2020.06.28 at 11h 31m 17s.xml">
+      <configuration name="/Users/ahmadkhalili/Desktop/T-Mobile/testing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_ahmadkhalili_Desktop_T-Mobile_testing_xml - 2020.06.28 at 11h 32m 10s.xml">
+      <configuration name="/Users/ahmadkhalili/Desktop/T-Mobile/testing.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest - 2020.06.28 at 11h 33m 08s.xml">
       <configuration name="HomePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2020.06.28 at 00h 49m 28s.xml">
+    <history-entry file="HomePageTest - 2020.06.28 at 11h 36m 01s.xml">
       <configuration name="HomePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2020.06.28 at 01h 00m 06s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="_Users_ahmadkhalili_Desktop_T-Mobile_testing_xml - 2020.06.28 at 11h 36m 20s.xml">
+      <configuration name="/Users/ahmadkhalili/Desktop/T-Mobile/testing.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2020.06.28 at 01h 00m 56s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="_Users_ahmadkhalili_Desktop_T-Mobile_testing_xml - 2020.06.28 at 11h 40m 16s.xml">
+      <configuration name="/Users/ahmadkhalili/Desktop/T-Mobile/testing.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2020.06.28 at 01h 01m 41s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="_Users_ahmadkhalili_Desktop_T-Mobile_testng_xml - 2020.06.28 at 11h 52m 41s.xml">
+      <configuration name="/Users/ahmadkhalili/Desktop/T-Mobile/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2020.06.28 at 01h 02m 20s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="_Users_ahmadkhalili_Desktop_T-Mobile_testng_xml - 2020.06.28 at 11h 54m 31s.xml">
+      <configuration name="/Users/ahmadkhalili/Desktop/T-Mobile/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest - 2020.06.28 at 01h 03m 46s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest - 2020.06.28 at 01h 08m 14s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomePageTest - 2020.06.28 at 01h 09m 10s.xml">
-      <configuration name="HomePageTest" configurationId="TestNG" />
+    <history-entry file="_Users_ahmadkhalili_Desktop_T-Mobile_testng_xml - 2020.06.28 at 11h 55m 44s.xml">
+      <configuration name="/Users/ahmadkhalili/Desktop/T-Mobile/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="90" width="1093" height="681" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="734" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18173169" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29886913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,7 +298,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.28767124" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3565365" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3271028" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,15 +306,16 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32597622" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32554516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.14557564" />
+      <window_info anchor="right" id="Maven" order="4" sideWeight="0.49688473" visible="true" weight="0.22051696" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50311524" side_tool="true" visible="true" weight="0.22051696" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -393,18 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="480">
           <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -420,13 +372,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="98" column="34" selection-start-line="23" selection-end-line="110" />
+        <state relative-caret-position="1620">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/failed.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
