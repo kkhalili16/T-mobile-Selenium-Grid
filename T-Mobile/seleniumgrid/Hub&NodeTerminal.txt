@@ -8,3 +8,6 @@ Example if standalone inside a file called seleniumGrid on desktop
 -run terminal and write $ cd desktop
 -$ cd seleniumGrid
 -$ hub command here. 
+
+To connect the node to the hub 
+Node:java -jar selenium-server-standalone-3.141.59.jar -role node -hub http://hubip/grid/register/

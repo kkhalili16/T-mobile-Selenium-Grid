@@ -3,15 +3,15 @@ package TestCases;
 import Base.TestBase;
 import Util.TestUtil;
 import org.testng.annotations.*;
-import pages.HomePage;
+import pages.HomePageFirefox;
 
-public class HomePageTest extends TestBase {
+public class HomePageTestFirefox extends TestBase {
     TestUtil testUtil;
-    HomePage homepage;
+    HomePageFirefox homePageFirefox;
     TestBase testBase = new TestBase();
 
 
-    public HomePageTest() {
+    public HomePageTestFirefox() {
         super();
     }
 
@@ -21,7 +21,7 @@ public class HomePageTest extends TestBase {
     public void setUp(@Optional String browserName){
         testBase.getLocalDriver(browserName);
         testUtil = new TestUtil();
-        homepage = new HomePage();
+        homePageFirefox = new HomePageFirefox();
 
 
     }
@@ -31,43 +31,44 @@ public class HomePageTest extends TestBase {
     @Test
     public void HomePageURL(){
 
-        homepage.validateHomePageURL();
+        homePageFirefox.validateHomePageURL();
     }
 
 
     @Test
     public void navigation_bar_universal() {
 
-        homepage.valida_universal_menu_bar();
+        homePageFirefox.valida_universal_menu_bar();
 
     }
 
     @Test
     public void navigation_bar() {
 
-        homepage.validateNavigationBar();
+        homePageFirefox.validateNavigationBar();
     }
 
     @Test
     public void Right_navigation_bar() {
 
-       homepage.right_nav_items();
+       homePageFirefox.right_nav_items();
     }
 
 
     @Test
-    public void PlansDropDown() throws InterruptedException {
-        homepage.PlansDropDown();
+    public void PlansDropDownF() throws InterruptedException {
+        homePageFirefox.PlansDropDown();
     }
-
 
 
     @AfterMethod
     public void tearDown(){
 
         driver.quit();
-        //driver.close();
+       // driver.close();
     }
+
+
 
 
 

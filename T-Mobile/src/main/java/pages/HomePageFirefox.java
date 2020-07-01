@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 
-public class HomePage extends TestBase {
+public class HomePageFirefox extends TestBase {
     //Web elements for validateNavigationBar().....
     @FindBy(id = "digital-header-nav-link-head-0")
     WebElement Plans;
@@ -45,7 +45,7 @@ public class HomePage extends TestBase {
 
 
 
-    public HomePage() {
+    public HomePageFirefox() {
         PageFactory.initElements(driver, this);
     }
 
