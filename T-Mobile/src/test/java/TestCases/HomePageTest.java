@@ -8,7 +8,6 @@ import pages.HomePage;
 public class HomePageTest extends TestBase {
     TestUtil testUtil;
     HomePage homepage;
-    TestBase testBase = new TestBase();
 
 
     public HomePageTest() {
@@ -17,9 +16,7 @@ public class HomePageTest extends TestBase {
 
 
     @BeforeMethod
-    @Parameters("browserName")
-    public void setUp(@Optional String browserName){
-        testBase.getLocalDriver(browserName);
+    public void setUp(){
         testUtil = new TestUtil();
         homepage = new HomePage();
 
@@ -66,8 +63,10 @@ public class HomePageTest extends TestBase {
     public void tearDown(){
 
         driver.quit();
-        //driver.close();
+
+
     }
+
 
 
 
